@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Buffer&apos; to &apos;HiloProductorConsumidorBuffer&apos;" description="Rename resource &apos;Buffer&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Buffer" name="HiloProductorConsumidorBuffer" stamp="1509702067075" updateReferences="true"/>
+</session>

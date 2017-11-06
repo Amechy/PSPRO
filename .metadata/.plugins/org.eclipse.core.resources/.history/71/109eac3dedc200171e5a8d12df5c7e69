@@ -1,0 +1,35 @@
+package pspro;
+
+public class PruebaDeBufferCompartido {
+	
+	public static void main(String[] args) {
+		Buffer bCompartido = new  BufferCompartido();
+		Productor prod = new Productor(bCompartido,10);
+		Consumidor cons1 = new Consumidor(bCompartido,6);
+		Consumidor cons2 = new Consumidor(bCompartido,4);
+		
+		StringBuffer encabezado = new StringBuffer("Operacion");
+		encabezado.setLength(40);
+		encabezado.append("Buffer   Contador ocupado");
+		System.out.println(encabezado);
+		System.out.println();
+		bCompartido.mostrarEstado("Aqui va algo");
+		
+		
+		prod.start();
+		cons1.start();
+		cons2.start();
+		
+		
+		try {
+			cons2.join();
+			prod.join();
+			cons1.join();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Hilo principal ha finalizado.");
+	}
+
+}

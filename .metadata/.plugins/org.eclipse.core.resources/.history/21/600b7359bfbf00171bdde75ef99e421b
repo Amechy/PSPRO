@@ -1,0 +1,10 @@
+package pspro;
+
+public class Profesor extends Thread{
+	String nombre;
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+	}
+}

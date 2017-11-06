@@ -1,0 +1,10 @@
+package dam.pspro;
+
+public class PruebaHilosSincronizadosFichero {
+
+	public static void main(String[] args) {
+		ControladorFicheros cf = new ControladorFicheros("Problemas.txt");
+
+	}
+
+}

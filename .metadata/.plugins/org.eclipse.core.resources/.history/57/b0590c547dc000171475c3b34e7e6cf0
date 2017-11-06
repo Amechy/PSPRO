@@ -1,0 +1,8 @@
+package pspro;
+
+public class Consumidor extends Thread {
+	@Override
+	public void run() {
+		
+	}
+}

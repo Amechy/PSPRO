@@ -1,0 +1,5 @@
+package dam.pspro;
+
+public class Escritor extends Thread {
+	private ControladorFicheros destino;
+}

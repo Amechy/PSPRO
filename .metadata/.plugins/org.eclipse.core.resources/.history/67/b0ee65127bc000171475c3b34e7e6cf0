@@ -1,0 +1,12 @@
+package pspro;
+
+public interface Buffer {
+	public int leer() {
+		
+	}
+	public void escribir(int tx) {
+		
+	}
+	
+	public
+}

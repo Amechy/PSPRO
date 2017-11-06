@@ -1,0 +1,5 @@
+package pspro;
+
+public interface Buffer {
+
+}

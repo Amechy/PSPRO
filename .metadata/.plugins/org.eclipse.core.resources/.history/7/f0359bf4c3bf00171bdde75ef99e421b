@@ -1,0 +1,26 @@
+package pspro;
+
+public class Alumno extends Thread{
+	String nombre;
+	Bienvenida saludo;
+	
+	public Alumno(String nombre, Bienvenida b) {
+		super();
+		this.nombre = nombre;
+		this.saludo = b;
+	}
+	
+	
+	
+	@Override
+	public void run() {
+		try {
+			
+			saludo.saludarAlProfesor(this.nombre);
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {			
+			e.printStackTrace();
+		}
+			
+	}
+}

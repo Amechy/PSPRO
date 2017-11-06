@@ -1,0 +1,28 @@
+package pspro;
+
+public class Consumidor extends Thread {
+	private Buffer compartido;
+	private int veces;	
+	
+	
+	public Consumidor(Buffer elbuffer, int nVeces) {
+		compartido = elbuffer;
+		veces = nVeces;
+	}
+	
+	@Override
+	public void run() {
+		for (int i = 0; i < veces; i++) {
+			try {
+				Thread.sleep((int) (Math.random() * 3001));
+				compartido.leer(i);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		System.out.println(getName( )+ " Terminó de producir");	
+		
+	}
+}

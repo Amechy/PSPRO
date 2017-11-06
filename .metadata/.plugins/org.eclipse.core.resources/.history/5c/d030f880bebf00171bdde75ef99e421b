@@ -1,0 +1,5 @@
+package pspro;
+
+public class Profesor extends Thread{
+
+}

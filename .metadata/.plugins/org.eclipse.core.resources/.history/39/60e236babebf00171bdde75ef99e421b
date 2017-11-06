@@ -1,0 +1,9 @@
+package pspro;
+
+public class Alumno extends Thread{
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		super.run();
+	}
+}

@@ -1,0 +1,15 @@
+package pspro;
+
+public class Bienvenida {
+	private boolean comienzaLaClase = false;
+	
+	
+	
+	public void SaludarAlProfesor() {
+		
+	}
+	public void ProfesorSaluda() {
+		
+	}
+	
+}

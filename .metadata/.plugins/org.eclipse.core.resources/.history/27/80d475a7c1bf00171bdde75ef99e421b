@@ -1,0 +1,23 @@
+package pspro;
+
+public class Bienvenida {
+	private boolean comienzaLaClase;
+	
+	
+	public Bienvenida() {
+		this.comienzaLaClase = false;
+	}
+	
+	public void saludarAlProfesor(String alumno) {
+		System.out.println("El alumno "+alumno+" quiere saludar");
+		
+		
+		System.out.println("El alumno "+alumno+" dice YEEEEEE!");
+	}
+	public void profesorSaluda() {
+		System.out.println("El el profesor dice: VEnga que va oliendo a playaa");
+		comienzaLaClase = true;
+		this.notifyAll();
+	}
+	
+}

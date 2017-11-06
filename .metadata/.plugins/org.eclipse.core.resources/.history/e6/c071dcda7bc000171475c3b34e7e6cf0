@@ -1,0 +1,23 @@
+package pspro;
+
+public class BufferCompartido implements Buffer {
+
+	@Override
+	public int leer() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void escribir(int valor) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public int mostrarEstado(String cadena) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}
