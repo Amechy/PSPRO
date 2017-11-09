@@ -32,9 +32,11 @@
 <fullyQualifiedTypeName name="pspro.Bienvenida"/>
 <fullyQualifiedTypeName name="pspro.Alumno"/>
 <fullyQualifiedTypeName name="pspro.Profesor"/>
-<fullyQualifiedTypeName name="java.lang.Thread"/>
 <fullyQualifiedTypeName name="org.omg.CORBA.NVList"/>
 <fullyQualifiedTypeName name="pspro.Productor"/>
 <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="pspro.BufferCompartidoCircular"/>
 </qualifiedTypeNameHistroy>
