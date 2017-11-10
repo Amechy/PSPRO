@@ -1,7 +1,0 @@
-package pspro;
-
-public class ComienzoClase {
-	public static void main(String[] args) {
-		
-	}
-}

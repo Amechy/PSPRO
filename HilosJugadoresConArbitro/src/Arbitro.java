@@ -6,7 +6,6 @@ public class Arbitro {
 	int objetivo;	
 	boolean acertado;	
 	public int maximo = 100;
-	Random rnd = new Random();
 	
 	public Arbitro(int nJugadores) {
 		this.numJug = nJugadores;
@@ -36,7 +35,7 @@ public class Arbitro {
 				e.printStackTrace();
 			}
 		}
-		if (!acertado) {
+		if (!acertado ) {
 			System.out.println("El jugador " + turno+" Prueba con " + jugada);
 			if (jugada==objetivo) {
 				acertado = true;

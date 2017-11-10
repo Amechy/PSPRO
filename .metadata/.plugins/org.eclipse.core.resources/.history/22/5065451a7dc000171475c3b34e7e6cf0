@@ -1,8 +1,0 @@
-package pspro;
-
-public class Productor extends Thread {
-	@Override
-	public void run() {
-				
-	}
-}
