@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 INDEX VERSION 1.130+/home/amechy/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
 3885805113.index
 742522455.index
@@ -16,3 +17,22 @@ INDEX VERSION 1.130+/home/amechy/eclipse-workspace/.metadata/.plugins/org.eclips
 527624335.index
 2771403403.index
 120211678.index
+=======
+INDEX VERSION 1.130+/home/usuario/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core
+1234134919.index
+1313034158.index
+3443351165.index
+225161610.index
+4081938760.index
+316124366.index
+1620024144.index
+1535468171.index
+864616625.index
+3490838687.index
+971004098.index
+65725548.index
+2987797268.index
+1546240507.index
+3353040328.index
+2186781690.index
+>>>>>>> c5d2e993c2e154e5c0dab8678ceb70e6eb4b0e13

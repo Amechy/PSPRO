@@ -1,2 +1,55 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<<<<<<< HEAD
 <qualifiedTypeNameHistroy/>
+=======
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.management.ManagementFactory"/>
+<fullyQualifiedTypeName name="java.lang.Process"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.lang.ProcessBuilder"/>
+<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
+<fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
+<fullyQualifiedTypeName name="HiloHolaMundo"/>
+<fullyQualifiedTypeName name="hilosInterrumpibles.HiloInterrumpible"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSpinnerUI"/>
+<fullyQualifiedTypeName name="Sumador"/>
+<fullyQualifiedTypeName name="Restador"/>
+<fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicInteger"/>
+<fullyQualifiedTypeName name="hilosSincronizados.Inutil"/>
+<fullyQualifiedTypeName name="hilosSincronizados.HiloA"/>
+<fullyQualifiedTypeName name="hilosSincronizados.HiloB"/>
+<fullyQualifiedTypeName name="HilosMutex"/>
+<fullyQualifiedTypeName name="DatoCompartido"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="dam.pspro.ControladorFicheros"/>
+<fullyQualifiedTypeName name="dam.pspro.Escritor"/>
+<fullyQualifiedTypeName name="pspro.Bienvenida"/>
+<fullyQualifiedTypeName name="pspro.Alumno"/>
+<fullyQualifiedTypeName name="pspro.Profesor"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.NVList"/>
+<fullyQualifiedTypeName name="pspro.Productor"/>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.lang.StringBuffer"/>
+<fullyQualifiedTypeName name="javax.print.attribute.standard.RequestingUserName"/>
+<fullyQualifiedTypeName name="pspro.BufferCompartidoCircular"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="Arbitro"/>
+<fullyQualifiedTypeName name="Jugador"/>
+<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.PUBLIC_MEMBER"/>
+<fullyQualifiedTypeName name="java.nio.charset.CodingErrorAction"/>
+<fullyQualifiedTypeName name="Palillo"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="Cena"/>
+<fullyQualifiedTypeName name="Filosofo"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+</qualifiedTypeNameHistroy>
+>>>>>>> c5d2e993c2e154e5c0dab8678ceb70e6eb4b0e13
