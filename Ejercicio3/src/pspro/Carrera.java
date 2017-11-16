@@ -19,7 +19,9 @@ public class Carrera {
 
 	
 	public synchronized void Correr(int dorsal) {
-		while ((alguienCorriendo || !haComenzado)&& dorsal != corredor) //El corredor no puede empezar a correr hasta que la carrera no haya empezado, sea su turno y el relevo esté libre. 
+		
+		//El corredor no puede empezar a correr hasta que la carrera no haya empezado, sea su turno y el relevo esté libre. 
+		while ((alguienCorriendo || !haComenzado)&& dorsal != corredor) 
 			
 		{
 			try {
