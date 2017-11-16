@@ -5,6 +5,11 @@
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="pspro.Orden"/>
 <fullyQualifiedTypeName name="java.awt.List"/>
-<fullyQualifiedTypeName name="pspro.Buffer"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="pspro.Buffer"/>
+<fullyQualifiedTypeName name="pspro.Lector"/>
+<fullyQualifiedTypeName name="pspro.Escritor"/>
+<fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 </qualifiedTypeNameHistroy>
