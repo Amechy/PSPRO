@@ -12,9 +12,11 @@ public class Cliente extends Thread{
 	int nCliente;
 	int precioCompra;
 	Caja[] cajas;
-	int cajaElegida;
+	int cajaQueMeHaTocado;
 	long tiempoInicio,tiempoFin;
 	long tiempoEspera;
+	
+	
 	
 	
 	
@@ -31,21 +33,22 @@ public class Cliente extends Thread{
 		
 	}
 	
-	private void ElegirCaja() {
+	private void EsperarCaja() {
 		
-		cajaElegida= (int)(Math.random()*cajas.length);
-		System.out.println("El cliente "+nCliente+" elige la caja "+cajaElegida+" para pagar");
+		cajaQueMeHaTocado= GestionClientes.asignarCaja(cajas).idCaja;
+		System.out.println("Al cliente "+nCliente+" le toca la caja "+cajaQueMeHaTocado+" para pagar");
 	}
 	
 	@Override
 	public void run() {
 		Comprar();
 		tiempoInicio = System.currentTimeMillis();
-		ElegirCaja();
+		EsperarCaja();
 		tiempoFin = System.currentTimeMillis();
 		tiempoEspera = tiempoFin-tiempoInicio;
 		
-		cajas[cajaElegida].Pagar(nCliente, precioCompra);
+		cajas[cajaQueMeHaTocado].Pagar(nCliente, precioCompra);
+		
 		
 		
 	}
